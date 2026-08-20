@@ -1,0 +1,15 @@
+# docker-compose.waha.yml — WAHA (WhatsApp) próprio do JobPilot (Fase C, docs/PLAN.md §12)
+#
+# STATUS: esqueleto — nenhum serviço configurado ainda.
+#
+# Container Docker isolado, NÃO compartilhado com o WAHA do projeto CRM
+# (~/Desktop/CRM/DeskcommCRM). Porta própria (ex: 3031, não 3030), sessão
+# própria, credenciais próprias. Adaptar do bloco `waha:` do
+# CRM/DeskcommCRM/docker-compose.yml quando for implementar.
+#
+# Ver: /Users/david/.claude/plans/ent-o-espera-vamos-bola-async-harp.md
+
+services:
+  waha:
+    image: devlikeapro/waha:noweb
+    # (a preencher: container_name, ports, environment, volumes)
